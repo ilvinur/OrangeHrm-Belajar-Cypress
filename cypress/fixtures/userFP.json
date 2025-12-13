@@ -1,0 +1,32 @@
+{
+  "valid": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "wrongPassword": {
+    "username": "Admin",
+    "password": "123"
+  },
+  "wrongUsername": {
+    "username": "Ad",
+    "password": "admin123"
+  },
+  "emptyUsername": {
+    "password": "admin123"
+  },
+  "emptyPassword": {
+    "username": "Admin"
+  },
+  "caseSensitivity": {
+    "username": "admin",
+    "password": "ADMIN123"
+  },
+  "shortPassword": {
+    "username": "Admin",
+    "password": "adm12"
+  },
+  "specialChar": {
+    "username": "Adm!n@123",
+    "password": "adm!n@123"
+  }
+}
